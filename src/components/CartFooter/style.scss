@@ -1,0 +1,32 @@
+.cart-footer {
+    background: #EAEFF2;
+    padding: 19px 0;
+    display: grid;
+    grid-template-columns: 5fr 3fr 4fr;
+    column-gap: 30px;
+    font-weight: 700;
+    line-height: 120%;
+    @media (max-width: 600px){
+        grid-template-columns: 1fr 1fr;
+        padding: 0 15px;
+    }
+    @media (max-width: 400px){
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+    
+
+    // .cart-footer__count
+
+    &__count {
+        grid-column-start: 2;
+        @media (max-width: 600px){
+            grid-column-start: 1;
+        }
+    }
+
+    // .cart-footer__price
+
+    &__price {
+    }
+}

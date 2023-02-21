@@ -1,0 +1,57 @@
+.product {
+
+    // .product__count
+
+    &__count {
+    }
+}
+.count {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+
+    // .count__box
+
+    &__box {
+        width: 40px;
+        height: 30px;
+        background: #EAEFF2;
+        border-radius: 3px;
+    }
+    
+    // .count__input
+    
+    &__input {
+        max-width: 100%;
+        text-align: center;
+        padding: 4px 0 3px;
+        background-color: transparent;
+        &::-webkit-inner-spin-button,
+        &::-webkit-outer-spin-button
+        {
+            appearance: none;
+        }
+    }
+
+    // .count__controls
+
+    &__controls {
+        display: flex;
+        flex-direction: column;
+        row-gap: 9px;
+        img{
+            display: block;
+        }
+    }
+
+    // .count__up
+
+    &__up {
+    }
+
+    // .count__down
+
+    &__down {
+    }
+}
+   
